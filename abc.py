@@ -11,7 +11,7 @@ from _weakrefset import WeakSet
 class _C: pass
 _InstanceType = type(_C())
 
-
+print "hello world"
 def abstractmethod(funcobj):
     """A decorator indicating abstract methods.
 
